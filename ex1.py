@@ -9,6 +9,9 @@ answer = random.randint(1,100)
 guess = 0
 count = 1
 
+# TODO: use ord() to examine each character in the input, 
+# test if between and including 48-57 (0-9)
+
 while guess != answer:
     guess = int(raw_input("Your guess? "))
     if guess > answer:
